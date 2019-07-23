@@ -11,6 +11,10 @@ def random2(userlist)
   p u[rand(u.length).to_i]
 end
 
+def random3
+  puts rand(10)
+end
+
 random1(userlist)
 random2(userlist)
-
+random3
