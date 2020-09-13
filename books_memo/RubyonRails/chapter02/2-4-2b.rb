@@ -7,7 +7,9 @@ class Robot
     @x += x; @y += y
     crash if @x < 0 || @y < 0
   end
-  private def crash
+
+  private
+  def crash
     puts "ドカン！"
   end
 end
